@@ -1,47 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Alex Pham</title>
-
-  <!-- <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css"> -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
 
   <link rel="stylesheet" href="css/style.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
-  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 </head>
 <body>
 
   <!-- ============================================================================ -->
-  <!-- start of full width-intro  -->
+  <!-- start of full width intro  -->
   <!-- ============================================================================ -->
 
   <header class="fullwidth-intro">
     <div class="container intro-text-wrapper">
-      <h1><span id="intro-text" ></span></h1>
+      <h1><span id="intro-text"></span></h1>
+
     </div>
   </header>
 
   <nav id="main-nav">
-    <a href="about"><li>My story</li></a>
-    <a href="skills"<li>Skills</li></a>
-    <a href="experience"><li>Experience</li></a>
-    <a href="projects"><li>Projects</li></a>
-    <a href="education"><li>Education</li></a>
-    <a href="contact"><li>Contact</li></a>
+    <a href="#about"><li>My Story</li></a>
+    <a href="#skills"><li>Skills</li></a>
+    <a href="#experience"><li>Experience</li></a>
+    <a href="#projects"><li>Projects</li></a>
+    <a href="#education"><li>Education</li></a>
+    <a href="#contact"><li>Contact</li></a>
   </nav>
 
-  <!-- ============================================================= -->
-  <!-- about page -->
-  <!-- ============================================================= -->
+  <!-- ============================================================================ -->
+  <!-- start of about  -->
+  <!-- ============================================================================ -->
 
   <section id="about" class="about">
+    <div class="container about-card">
+      <H1><span class="underline-primary">About</span></H1>
+      <div class="row">
+        <div class="three columns">
+          <img class="avatar" src="images/alex3.jpg" alt="Picture of Alex">
+        </div>
+        <div class="nine columns">
+          <p style="text-align: left">I spent most of my career as in information technology until I decided to take a career break. I recognise that the world of technology is constantly changing so I decided to join General Assembly at the end of my break to ensure I am current to the market.
+          <br>
+          <br>
+           I am passionate about technology because the most attractive aspect of technology is problem solving and problem solving is a challenge I have always loved. Technology is something I have been passionate about for long time as I can remember.
+          <br>
+          <br>
+          Technology likes about building better tools and tools by definition help you do work and the work that we are doing is ultimately about people.
+          <br>
+          <br>
+          I love to create a product that help business people or someone connect to their customers and non-profits connect to their members.
+          </p>
+        </div>
+        <hr>
+        <p>
+          Mobile: 0419 561 612
+          <br>
+          Email: alex.pham2010@gmail.com
+        </p>
+        <div class="social-icons">
+          <a target="_blank" href="https://github.com/alexsydney"><img class="icon" src="images/github.jpg"></a>
+          <a target="_blank" href="https://www.linkedin.com/in/alexpham2010"><img class="icon" src="images/linkedin.jpg"></a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================================ -->
+  <!-- start of skills  -->
+  <!-- ============================================================================ -->
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h1><span class="underline-secondary">Skills</span></h1>
+      <div class="row">
+        <div class="three columns">
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML5/CSS3</li>
+            <li>jQuery</li>
+            <li>React</li>
+            <li>Node/NodeJS</li>
+            <li>Vue</li>
+            <li>AugularJS</li>
+          </ul>
+
+        </div>
+        <div class="three columns">
+          <ul>
+            <li>ASP.NET MVC</li>
+            <li>ASP.NET</li>
+            <li>Ruby on Rails</li>
+            <li>Web API </li>
+            <li>C#</li>
+            <li>Java</li>
+            <li>C++</li>
+          </ul>
+        </div>
+        <div class="three columns">
+          <ul>
+            <li>MS SQL Server</li>
+            <li>SQL Server Integration Services</li>
+            <li>PostgresSQL</li>
+            <li>Google Cloud firebase</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>SQLite</li>
+            <li>DB2</li>
+          </ul>
+        </div>
+        <div class="three columns">
+          <ul>
+            <li>Git / Github</li>
+            <li>Visual SourceSafe</li>
+            <li>Team Foundation Server</li>
+            <li>XCode</li>
+            <li>Swift IOS</li>
+            <li>Android</li>
+            <li>Scrum/Agile Development Methodology</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================================ -->
+  <!-- start of experience -->
+  <!-- ============================================================================ -->
+
+  <section id="experience" class="experience">
+    <div class="container">
+
+      <h1><span class="underline-primary">Experience</span></h1>
+      <div class="row job">
+        <div class="four columns experience-title">
+          <h2>Web Development Immersive (Student)</h2>
+          <h3>General Assembly</h3>
+          <h4>December 2017 – March 2018</h4>
+        </div>
+        <div class="eight columns">
+          <p>
+            Developed and deployed four full stack applications including:
+            <br>
+            1 - JavaScript game – HTML5, CSS3, JavaScript, jQuery.
+            <br>
+            2 - Restaurant review – share photos, rating, comments, location on application – Ruby on Rails, HTML5, CSS3, JavaScript, jQuery, Bootstrap, PostgreSQL.
+            <br>
+            3 - TRAD3R – is a 3rd model trading application – Ruby on Rails, three.js, AR.js, Bootstrap, Bootstrap-material-design, HTML5, CSS3.
+            <br>
+            4 -  Music event application – React, Google Cloud firebase, rebase, Node.js, API, axios, HTML5, CSS3.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row job">
+        <div class="four columns experience-title">
+          <h2>Career Break</h2>
+          <h3>June 2014 - November 2017</h3>
+          <!-- <h4>Jan 2016 - Current</h4> -->
+        </div>
+        <div class="eight columns">
+          <p>
+            Take time off to recovery my health during I was long illness.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row job">
+        <div class="four columns experience-title">
+          <h2>.Net Developer</h2>
+          <h4>NSW Technology Tolling Services</h4>
+          <h3>Transurban</h3>
+          <h4>December 2010 - May 2014</h4>
+        </div>
+        <div class="eight columns">
+          <p>
+            Performed aanalysis, design, development and implementation on NSW Tolling Web Applications using the following languages.
+            <br><br>
+            C#, ADO.NET, ASP.NET, ASP.NET MVC, web forms, Web API, Entity framework 4.5 LINQ, T-SQL, JavaScript, AngularJS, JQuery, AJAX, JSON, WCF, Web services, DB Context, SQL Server 2012, 2008, 2005, TFS, source control, HTML, HTML5, CSS, CSS3, XML, Bootstrap, Unit Testing and Scrum/Agile development methodology.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row job">
+        <div class="four columns experience-title">
+          <h2>Analyst Programmer</h2>
+          <h4>Service Management Team</h4>
+          <h3>IBM Corporation</h3>
+          <h4>February 2008 – November 2010</h4>
+        </div>
+        <div class="eight columns">
+          <p>
+            Performed the following duties: developed, tested, implemented, enhanced and supported application on Java, J2EE, WSDL, SOAP, XML, Web Services, and Web sphere, IBM Web sphere Message Broker, DB2, Linux and UNIX. Migrated data into SQL Server 2005 and using DTS package
+            <br><br>
+            Involved in different phases of the life cycle including requirements, design, analysis, coding, testing and performance testing on “Based Business Program” project
+          </p>
+
+        </div>
+      </div>
+      <hr>
+      <div class="row job">
+        <div class="four columns experience-title">
+          <h2>Analyst Programmer</h2>
+          <h4>Application Maintenance Service Team</h4>
+          <h3>IBM Corporation</h3>
+          <h4>May 2005 – January 2008</h4>
+        </div>
+        <div class="eight columns">
+          <p>
+            Planned, developed, tested, and documented software programs, applying knowledge of programming techniques, operating systems and environment; evaluated user request for new or modified applications.
+            <br><br>
+            Analysed, reviewed, and altered applications to increase operating efficiency or adapt to new user or business requirements.
+            <br><br>
+            Scheduled and planned release or new applications or updates, in line with set deadline.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row job">
+        <div class="four columns experience-title">
+          <h2>Information Technology Specialist Consultant</h2>
+          <h4>Asset Management Team</h4>
+          <h3>IBM Corporation</h3>
+          <h4>December 2000 – April 2005</h4>
+        </div>
+        <div class="eight columns">
+          <p>
+            Performed functional analysis on specifications to determine design, development, testing, implementation, enhancement, maintenance, document and production support on selected application.
+            <br><br>
+            Consulted, maintained, enhanced, coded and supported on Peregrine Asset Centre application using Cypress Basic scripting to read and transfer data into DB2 database and Citrix.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row job">
+        <div class="four columns experience-title">
+          <h2>Web Developer and IT Consultant</h2>
+          <h4>Technology Provisioning Services Team</h4>
+          <h3>Westpac Banking Corporation</h3>
+          <h4>April 1998 - December 2000</h4>
+        </div>
+        <div class="eight columns">
+          <p>
+            Involved in different phases of the life cycle including requirements, design, analyst, coding, testing and document on Technology Provisioning Services web project.
+            <br><br>
+            Developed, testing, enhancement and supported web application using ASP, CSS, HTML, VBScript and JavaScript languages.
+          </p>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+  <br>
+
+  <!-- ============================================================================ -->
+  <!-- start of projects -->
+  <!-- ============================================================================ -->
+  <section id="projects" class="projects">
+    <div class="container">
+
+      <h1><span class="underline-primary">Projects</span></h1>
+
+      <div class="row project">
+        <div class="five columns project-title">
+          <h2>Music Events</h2>
+          <img src="images/music-event2.png" alt="music event app image">
+          <p></p>
+        </div>
+        <div class="seven columns">
+          <p>
+            Music event app is a music website, where using API to search and get live events from external resource like Eventful website where artists and fans connect to the events. Also this app can create your own events, update, delete and get events from real time storage on Google cloud firebase
+          </p>
+          <div class="project-link-wrapper">
+            <a class="button" target="_blank" href="https://alexsydney.github.io/music-event-app/">Live Demo</a>
+            <a class="button" target="_blank" href="https://github.com/alexsydney/music-event-app">Github</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row project">
+        <div class="five columns project-title">
+          <h2>TRAD3R</h2>
+          <img src="images/ar-market2.png" alt="TRAD3R image">
+          <p></p>
+        </div>
+        <div class="seven columns">
+          <p>
+            TRAD3R is a 3d model trading app which can load 3d models in a three.js loader and also allow users to view that model in an augmented reality viewer with AR.js.
+          </p>
+          <div class="project-link-wrapper">
+            <a class="button" target="_blank" href="https://alextrad3r.herokuapp.com/">Live Demo</a>
+            <a class="button" target="_blank" href="https://github.com/alexsydney/TRAD3R">Github</a>
+          </div>
+        </div>
+      </div>
+      <br/>
+      <hr>
+
+      <div class="row project">
+        <div class="five columns project-title">
+          <h2>Restaurant Review</h2>
+          <img src="images/restaurant-review2.png" alt="Restaurant image">
+          <p></p>
+        </div>
+        <div class="seven columns">
+          <p>
+            An application designed to give customer to post photo, comments, rating, map location and search on the restaurant.
+          </p>
+          <div class="project-link-wrapper">
+            <a class="button" target="_blank" href="https://alexreviewrestaurant.herokuapp.com/">Live Demo</a>
+            <a class="button" target="_blank" href="https://github.com/alexsydney/project1">Github</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="row project">
+        <div class="five columns project-title">
+          <h2>Tic Tac Toe</h2>
+          <img src="images/tic-tac-toe3.png" alt="tic tac toe image">
+          <p></p>
+        </div>
+        <div class="seven columns">
+          <p>
+            A game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
+          </p>
+          <div class="project-link-wrapper">
+            <a class="button" target="_blank" href="https://alexsydney.github.io/tictactoe/">Live Demo</a>
+            <a class="button" target="_blank" href="https://github.com/alexsydney/tictactoe">Github</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+    </div>
+  </section>
+
+<!-- ============================================================================ -->
+<!-- start of education  -->
+<!-- ============================================================================ -->
+  <section id="education" class="education">
+    <div class="container">
+      <h1><span class="underline-primary">Education</span></h1>
+
+      <div class="row education">
+        <div class="five columns education-title">
+          <h2>Web Development Immersive</h2>
+        </div>
+        <div class="seven columns">
+          <h3>General Assembly - SYDNEY - December 2017 – March 2018</h3>
+        </div>
+      </div>
+      <!-- <hr> -->
+
+      <div class="row education">
+        <div class="five columns education-title">
+          <h2>Master of Science in Computer Science</h2>
+        </div>
+        <div class="seven columns">
+          <h3>Australian National University - CANBERRA</h3>
+        </div>
+      </div>
+
+      <div class="row education">
+
+        <div class="five columns education-title">
+          <h2>Bachelor of Computer Science</h2>
+        </div>
+        <div class="seven columns">
+          <h3>Royal Melbourne Institute of Technology University - VICTORIA</h3>
+        </div>
+
+        <hr>
+      </div>
+      </div>
 
   </section>
 
+  <!-- ============================================================================ -->
+  <!-- start of contacts  -->
+  <!-- ============================================================================ -->
 
+  <section id="contact" class="contact">
+    <div class="container">
+      <h1><span class="underline-primary">Get in touch</span></h1>
+      <p>I would love to join your TEAM or if we could grab a coffee!</p>
+      <p class="contact-text">Alex Pham</p>
+      <p class="contact-text">Phone: 0419 561 612</p>
+      <p class="contact-text">email: alex.pham2010@gmail.com</p>
+    </div>
+
+  </section>
+
+  <!-- ============================================================================ -->
+  <!-- start of footer  -->
+  <!-- ============================================================================ -->
+
+  <footer>
+    <p>Copyright 2018 Alex Pham</p>
+  </footer>
+
+
+  <!-- ============================================================================ -->
+  <!-- start of scripts  -->
+  <!-- ============================================================================ -->
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <!-- TweenMax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <!-- Typed.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+  <!-- Main -->
+  <script src="js/main.js"></script>
 </body>
 </html>
