@@ -5,7 +5,7 @@ $(document).ready(function(){
     // =================================================================== */
       $("#intro-text").typed(
         {
-          strings: ["Hello, my name is Alex.", "I am a full stack web developer with Bachelor of Computer Science degree.","I am passionate about technology because the most attractive aspect of technology is problem solving","...and problem solving is a challenge I have always loved"],
+          strings: ["Hello, my name is Alex Pham.", "I am software developer with Bachelor of Computer Science degree.","I am passionate about technology because the most attractive aspect of technology is problem solving","...and problem solving is a challenge I have always loved"],
           // typing speed
           typeSpeed: 25,
           // time before typing starts
